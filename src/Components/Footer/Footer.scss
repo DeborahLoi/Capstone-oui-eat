@@ -1,0 +1,38 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    display: inline-block;
+    margin-right: 1rem;
+    transition: transform 0.2s;
+  }
+  
+  .footer-social a:hover {
+    transform: translateY(-3px);
+  }
+  
+  .footer-social i {
+    font-size: 1.5rem;
+  }
+  
+  .footer-contact {
+    flex: 1 1 100%;
+    margin-top: 1.5rem;
+  }
+  
+  .footer-address {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-text {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  

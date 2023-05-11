@@ -1,0 +1,22 @@
+@use 'variables' as *;
+@use 'typography' as *;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    color: $primarycolor-black;
+    font-family: 'Mplus';
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+   list-style: none; 
+}

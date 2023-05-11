@@ -1,0 +1,24 @@
+@use '../../styles/partials/global' as *;
+
+.page--background {
+    background-image: url("../../Assets01/Images/background-minimalist.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem
+
+}
+
+.header--display {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  

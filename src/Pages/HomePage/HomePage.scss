@@ -1,0 +1,94 @@
+@use '../../styles/partials/global' as * ;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/typography' as *;
+
+.home__page--background{
+        background-image: url("../../Assets01/Images/background-home-page.png");
+        background-repeat: no-repeat;
+    background-size: cover;
+    height: 594px;
+    padding: 0.5rem;
+    background-position-y: -52px;
+    
+
+}
+
+.home-page__items{
+
+    &__title{
+        width: 267px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+    margin-left: 60px;
+    padding-bottom: 5px
+    }
+    
+
+
+&--display{
+    display: flex;
+
+}
+
+    
+}
+
+
+
+.nav{
+
+    &--display{
+        margin: 3rem 0 3rem 0rem;
+    }
+
+
+    &__items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &--margin{
+            margin-top: 37px;
+        }
+    
+
+        
+      &__images {
+        height: 100px;
+        width: 120px;
+        transition: transform 0.5s;
+
+        &:hover{
+                animation: shake 0.5s;
+              }
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0, 0) rotate(0); }
+            10% { transform: translate(-10px, 0) rotate(-5deg); }
+            20% { transform: translate(10px, 0) rotate(5deg); }
+            30% { transform: translate(-10px, 0) rotate(-5deg); }
+            40% { transform: translate(10px, 0) rotate(5deg); }
+            50% { transform: translate(-10px, 0) rotate(-5deg); }
+            60% { transform: translate(10px, 0) rotate(5deg); }
+            70% { transform: translate(-10px, 0) rotate(-5deg); }
+            80% { transform: translate(10px, 0) rotate(5deg); }
+            90% { transform: translate(-10px, 0) rotate(-5deg); }
+            100% { transform: translate(0, 0) rotate(0); }
+          }
+
+
+
+      }  
+      
+    }
+   
+
+
+
+
+
+
+   
+
+   

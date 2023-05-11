@@ -1,0 +1,18 @@
+@use '../../styles/partials/variables' as *;
+
+
+.quote{
+ 
+ 
+    &__title{
+        width: 70%;
+        height: 50px;
+        border: solid 4px rgba(11, 157, 40, 0.531);
+        background-color: rgb(255, 254, 245);
+        border-radius: 4px;
+        color: $primarycolor-black;
+        font-size: 16px;
+        font-weight: 700;
+        
+    }
+}
