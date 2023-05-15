@@ -18,20 +18,7 @@ const RadialContainer = ({ percentage }) => {
     endAngle: 180,
     reverse: false
   });
-  // const [selectedIngredients, setSelectedIngredients] = React.useState([]);
-  // const [totalScore, setTotalScore] = React.useState(0);
   
-  // const calculateTotalScore = () => {
-  //   const newTotalScore = selectedIngredients.reduce((total, ingredient) => {
-  //     return total + ingredients[ingredient];
-  //   },0);
-  //   setTotalScore(newTotalScore);
-  //   console.log(newTotalScore);
-  // };
-  
-  // React.useEffect(() => {
-  //   calculateTotalScore();
-  // }, [selectedIngredients]);
   
   const onFieldChange = (event, fieldName, parse) => {
     let value = parse ? parseInt(event.target.value, 10) : event.target.value;
@@ -89,13 +76,7 @@ const RadialContainer = ({ percentage }) => {
     reverse
   } = radialOptions;
   
-  // const handleIngredientSelect = (ingredient) => {
-  //   setSelectedIngredients((selectedIngredients) => [...selectedIngredients, ingredient]);
-  // };
   
-  // const handleIngredientDeselect = (ingredient) => {
-  //   setSelectedIngredients((selectedIngredients) => selectedIngredients.filter((i) => i.id !== ingredient.id));
-  // };
   
   return (
     <div>

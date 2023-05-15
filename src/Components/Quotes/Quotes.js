@@ -13,10 +13,14 @@ function Quotes() {
   const { quote, author } = selectedQuote;
 
   return (
+  <div className="quote--display" >
+   
+  <h2 className="quote__title">QUOTE OF THE DAY</h2>
     <div className="quote__container">
-    <h2 className="quote__title" >ABOUT YOU</h2>
+       
         <p className="quote">"{quote}"</p>
         <p>{author}</p>
+    </div>
     </div>
   );
 }

@@ -1,3 +1,99 @@
-.dropdown-menu{
-    color: white;
+@use '../../styles/partials/variables' as *;
+
+.shopping-list--display{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 155px;
+    margin-top: 180px;
+    width: 100%;
+    background-color: white;
+    
 }
+
+
+.shopping-list__items{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.dropdown-toggle{
+    
+    margin-bottom: 10%;
+    border: 3px solid;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 1rem;
+    background-color: $primary-color-pink-pastel;
+    color: $secondary-light-grey;
+    font-family: 'Orbitron';
+   
+
+        &:hover{
+            background-color: $secondary-color-green-pastel;
+        }
+    
+}
+
+
+.dropdown-menu {
+    overflow-y: auto;
+    background-image: url(../../Assets01//Images/ingredients-background.png);
+    background-size: cover;
+    max-height: 441px;
+    margin-bottom: 2rem;
+    max-width: 354px;
+    padding: 10rem 5rem 5rem 5rem;
+
+    &--:hover{
+        background-color: #F6E8D9;
+    }
+    
+  }
+.input{
+    margin-right: 14px;
+    margin-left: 4px;
+    
+
+    
+}
+  li{
+    margin-bottom: 15px;
+    background-color: $primarycolor-white;
+    height: 30px;
+    font-size: 18px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+
+    &:hover{
+        background-color: #F6E8D9;
+    }
+       
+  }
+
+  
+
+#navbar {
+    background-color: #333; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  
+  /* Style the navbar links */
+  #navbar li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar li:hover {
+    background-color: #ddd;
+    color: black;
+  }

@@ -1,6 +1,8 @@
 import { Route, Routes, BrowserRouter, Navigate } from 'react-router-dom';
 import HomePage from "./Pages/HomePage/HomePage";
 import ShoppingListPage from './Pages/ShoppingListPage/ShoppingListPage';
+import RecipesPage from './Pages/RecipesPage/RecipesPage';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -14,6 +16,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path='shopping-list-page' element={<ShoppingListPage />} />
           <Route path='shoppingList' element={<Navigate to='/shopping-list-page' />} />
+          <Route path='recipes-page' element={<RecipesPage />} />
+          <Route path='recipes' element={<Navigate to='/recipes-page' />} />
         </Routes>
       </BrowserRouter>
     </div>

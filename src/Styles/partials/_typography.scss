@@ -51,6 +51,12 @@
     font-weight: 500;
 }
 
+@font-face {
+    font-family:'Life-saver' ;
+    src: url(../../Assets01/Font/Life_Savers/LifeSavers-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
 h1{
     font-family: 'Orbitron';
     font-weight: 700;
@@ -61,14 +67,23 @@ h1{
   text-shadow: 2px 2px 4px rgba(0,0,0,0);
 }
 
+
+
 h2{
     font-family: 'Orbitron';
     color: $primarycolor-white;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 h3{
     font-family: 'VT323';
     color: $primarycolor-white;
     font-size: 30px;
+}
+h4{
+    font-family: "Orbitron";
+    color: #FFFFFF;
+    font-size: 16px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 15px;
 }

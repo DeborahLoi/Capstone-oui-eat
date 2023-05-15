@@ -1,24 +1,121 @@
 @use '../../styles/partials/global' as *;
 
-.page--background {
-    background-image: url("../../Assets01/Images/background-minimalist.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 1rem
+
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/typography' as *;
+
+
+
+.shopping-list__items {
+
+    &__title {
+        width: 440px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid white;
+        margin-left:27%;
+        padding-bottom: 5px;
+        font-size: 70px;
+    }
+
+
+
+    &--display {
+        display: flex;
+    
+    
+
+    }
+
 
 }
 
-.header--display {
+
+
+.nav-shopping {
+
+    &--display {
+        display: flex;
+        margin: 3rem 0 3rem 0rem;
+    }
+
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &--margin {
+            margin-top: 37px;
+        }
+
+
+
+        &__images {
+            height: 161px;
+            width: 196px;
+            transition: transform 0.5s;
+            margin-top: 29px;
+
+            &:hover {
+                animation: shake 0.5s;
+            }
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translate(0, 0) rotate(0);
+            }
+
+            10% {
+                transform: translate(-10px, 0) rotate(-5deg);
+            }
+
+            20% {
+                transform: translate(10px, 0) rotate(5deg);
+            }
+
+            30% {
+                transform: translate(-10px, 0) rotate(-5deg);
+            }
+
+            40% {
+                transform: translate(10px, 0) rotate(5deg);
+            }
+
+            50% {
+                transform: translate(-10px, 0) rotate(-5deg);
+            }
+
+            60% {
+                transform: translate(10px, 0) rotate(5deg);
+            }
+
+            70% {
+                transform: translate(-10px, 0) rotate(-5deg);
+            }
+
+            80% {
+                transform: translate(10px, 0) rotate(5deg);
+            }
+
+            90% {
+                transform: translate(-10px, 0) rotate(-5deg);
+            }
+
+            100% {
+                transform: translate(0, 0) rotate(0);
+            }
+        }
+
+
+
+    }
+
+}
+
+.shopping-page__items--display{
     display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-  }
-  
+    
+    
+}

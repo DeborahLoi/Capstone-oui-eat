@@ -2,17 +2,51 @@
 
 
 .quote{
+    max-width: 80%;
+    font-family: 'Life-saver';
+    line-height: 26px;
+    margin-bottom: 17px;
+    
+
+    &__container{
+      
+background-image: url('../../Assets01//Images/quote-background.png');
+width: 351px;
+/* padding-top: 117px; */
+border-radius: 50%;
+border: 5px solid white;
+display: flex;
+flex-direction: column;
+height: 363px;
+margin-left: 54px;
+justify-content: center;
+align-items: center;
+background-position-x: -50px;
+background-position-y: -8px;
+padding-top: 80px;
+    }
+
+
+    &--display{
+        display:flex;
+        flex-direction: column;
+    }
+
+    
  
  
     &__title{
-        width: 70%;
-        height: 50px;
-        border: solid 4px rgba(11, 157, 40, 0.531);
-        background-color: rgb(255, 254, 245);
-        border-radius: 4px;
-        color: $primarycolor-black;
-        font-size: 16px;
-        font-weight: 700;
-        
+        background-color: #F4FDE9;
+        background-size: cover;
+        font-size: 25px;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 19px;
+    color: rgba(73, 73, 73, 0.556);
+    margin-left: 58px;
+
+    
+      
     }
 }
+

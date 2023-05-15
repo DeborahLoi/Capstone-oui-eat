@@ -1,0 +1,32 @@
+@use '../../styles/partials/variables' as *;
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 15px;
+    /* margin: 2rem; */
+   
+    border: 5px solid $primary-color-ligh-grey;
+    
+    height: 71px;
+    
+    
+
+    &__logo{
+        position:absolute;
+    }
+  
+}
+
+.loggin{
+   
+        background-image: url("../../Assets01/Images/loggin-pic.png");
+        width: 3rem;
+        height: 3rem;
+        background-size: cover;
+        border-radius: 50%;
+        background-position-y: -15px;
+        border: 4px solid $primary-color-ligh-grey;
+}

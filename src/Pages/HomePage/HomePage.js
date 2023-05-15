@@ -4,19 +4,15 @@ import MenuDrop1 from '../../Assets01/Images/menu-drop-1.png';
 import MenuDrop2 from '../../Assets01/Images/menu-drop-2.png';
 import LoggedIn from '../../Components/LoggedIn/LoggedIn';
 import AboutUs from '../../Components/AboutUs/AboutUs';
+import HeaderHomePage from '../../Components/HeaderHomePage/HeaderHomePage';
 import Footer from '../../Components/Footer/Footer';
-
-
-
-
-
 
  function HomePage() {
   return (
     <>
         
-        
-         <div className="home__page--background">
+        <HeaderHomePage />
+         <div className="pages--background"> 
         <LoggedIn />
         <div className="home-page__items--display">
         <nav className="nav--display">
@@ -31,8 +27,8 @@ import Footer from '../../Components/Footer/Footer';
          </div> 
          </nav> 
          <AboutUs /> 
-         </div> 
-         <Footer />
+         </div>
+         <Footer /> 
         </div>
      </>
   )

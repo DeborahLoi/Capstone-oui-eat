@@ -1,19 +1,43 @@
-import React from 'react'
+import './Footer.scss';
+import InstagramIcon from '../../Assets01/Icons/instagram.png';
+import FacebookIcon from '../../Assets01/Icons/facebook.png';
+import EmailIcon from '../../Assets01/Icons/email.png';
+import AddressIcon from '../../Assets01/Icons/address.png';
+import PhoneIcon from '../../Assets01/Icons/phone.png';
+import ButtonMailto from '../ButtonMailto/ButtonMailto';
 
 export default function Footer() {
   return (
-    <footer class="footer">
-  <div class="footer-social">
-    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-    <a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i></a>
-  </div>
-  <div class="footer-contact">
-    <p class="footer-address">123 Main Street, Miami, USA</p>
-    <p class="footer-phone">(786) 881-3870</p>
-  </div>
-  <p class="footer-text">© 2023 OUI EAT. All Rights Reserved.</p>
-</footer>
+    
+
+    <footer className="footer">
+      <div className="footer__items" >
+        <div className="footer__social">
+          <h4>Social Media</h4>
+          <div className= "footer__icons__container">
+          <a href="https://www.instagram.com/deboeasy" target="blank"><img className="footer__icons" src={InstagramIcon} alt="instagram icon" /></a>
+          <a href="https://www.facebook.com/buddydoux" target="blank"><img className="footer__icons" src={FacebookIcon} alt="facebook icon" /></a>
+        </div></div>
+        <div className="footer__contact">
+          <h4>Contact Us</h4>
+          <div className="footer__icons--display">
+            <img className="footer__icons" src={AddressIcon} alt="location icon" />
+            <p>123 Main Street, Miami, USA</p>
+          </div>
+          <div className="footer__icons--display">
+            <img className="footer__icons" src={PhoneIcon} alt="phone icon with hearts" />
+            <p class="footer-phone">(786) 881-3870</p>
+          </div>
+          <div className="footer__icons--display">
+            <img className="footer__icons" src={EmailIcon} alt="icon for the email address" />
+            <ButtonMailto label="Contat us here" mailto="mailto:deboeasy92@gmail.com" />
+          
+          </div>
+        </div>
+      </div>
+      <p className="footer__copy-right">© 2023 OUI EAT. All Rights Reserved.</p>
+    </footer>
+   
 
   )
 }
