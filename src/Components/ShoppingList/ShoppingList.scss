@@ -1,10 +1,11 @@
 @use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
 
 .shopping-list--display{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
-    margin-left: 155px;
+    margin-left: 108px;
     margin-top: 180px;
     width: 100%;
     background-color: white;
@@ -15,24 +16,16 @@
 .shopping-list__items{
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 
 .dropdown-toggle{
+    @include button-field;
     
-    margin-bottom: 10%;
-    border: 3px solid;
-    border-radius: 28px;
-    font-size: 20px;
-    padding: 1rem;
-    background-color: $primary-color-pink-pastel;
-    color: $secondary-light-grey;
-    font-family: 'Orbitron';
    
 
-        &:hover{
-            background-color: $secondary-color-green-pastel;
-        }
+       
     
 }
 
@@ -97,3 +90,17 @@
     background-color: #ddd;
     color: black;
   }
+
+  .radial__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--score{
+      font-family:'VT323';  
+    }
+}
+
+.recipes__button{
+    @include button-field;
+}

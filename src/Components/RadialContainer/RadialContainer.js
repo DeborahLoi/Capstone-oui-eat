@@ -1,9 +1,7 @@
 import './RadialContainer.scss';
 import * as React from 'react';
 import { RadialGauge } from '@progress/kendo-react-gauges';
-import { NumericTextBox, Switch } from '@progress/kendo-react-inputs';
-import ingredients from '../../data/ingredients.json';
-import { buildQueries } from '@testing-library/react';
+
 
 const RadialContainer = ({ percentage }) => {
   const [radialOptions, setRadialOptions] = React.useState({
@@ -157,7 +155,7 @@ const RadialContainer = ({ percentage }) => {
       length: 1,
     }} transitions={true} scale={{
       labels: {
-        format: 'd',
+        format: 'b',
         color: labelsColor,
         visible: showLabels
       },
@@ -175,27 +173,23 @@ const RadialContainer = ({ percentage }) => {
       reverse,
       ranges: [{
         from: 0,
-        to: 30,
+        to: 33,
         color: "red",
       },
       {
-        from: 31,
-        to: 50,
-        color: "yellow"
+        from: 34,
+        to: 66,
+        color: "orange"
       },
       {
-        from: 51,
-        to: 70,
-        color: "orange"
-      },{
-        from: 71,
+        from: 67,
         to: 100,
-        color: "green"
+        color: "#28FF0D"
       }
     ]
     }} />
   </div>
   )
 }
-// ReactDOM.render(<RadialContainer />, document.querySelector('.my-app'));
+
 export default RadialContainer

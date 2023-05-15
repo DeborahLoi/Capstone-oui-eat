@@ -29,8 +29,11 @@ export default function Footer() {
             <p class="footer-phone">(786) 881-3870</p>
           </div>
           <div className="footer__icons--display">
-            <img className="footer__icons" src={EmailIcon} alt="icon for the email address" />
-            <ButtonMailto label="Contat us here" mailto="mailto:deboeasy92@gmail.com" />
+           
+               <img className="footer__icons" src={EmailIcon} alt="icon for the email address" />
+           
+           
+            <ButtonMailto label="Contact us here" mailto="mailto:deboeasy92@gmail.com" />
           
           </div>
         </div>

@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+
+@mixin  button-field{
+    margin-bottom: 10%;
+    border: 3px solid;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 1rem;
+    background-color: #FFE5E5;
+    color: rgba(73, 73, 73, 0.556);
+    font-family: "Orbitron";
+
+    &:hover{
+        background-color: $secondary-color-green-pastel;
+    }
+
+}

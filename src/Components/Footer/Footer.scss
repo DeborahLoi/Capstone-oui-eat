@@ -8,12 +8,13 @@
     align-items: center;
     font-size: 12px;
     color: #FFFFFF;
-    background-color: #9ABFA4;
+    background-color:$primary-color-green;
     border: 3px solid #F8F8F8;
     border-radius: 50%;
     justify-content: space-between;
     width: 80%;
     margin-left: 10%;
+    margin-top: 82px;
 
 
    &__items{
@@ -22,7 +23,7 @@
     width: 80%;
     justify-content: center;
     /* align-items: center; */
-    margin-top: 28px;
+    margin-top: 54px;
     gap: 335px;
 
    
@@ -36,6 +37,7 @@
     align-items: center;
     padding-right: 32px;
     width: 54px;
+    
 
     &__container{
       display: flex;
