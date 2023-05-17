@@ -1,10 +1,8 @@
 .logged{
 
-   
-    
+
 
 &__avatar{
-    background-image: url("../../Assets01//Images/loggin-pic.png");
     width: 2rem;
     height: 2rem;
     background-size: cover;
@@ -14,24 +12,7 @@
     
 }
 
-&__avatar2{
-    background-image: url("../../Assets01//Images/loggin-pic.png");
-    width: 2rem;
-    height: 2rem;
-    background-size: cover;
-    border-radius: 50%;
-    background-position-y: -15px;
 
-}
-&__avatar{
-    background-image: url("../../Assets01//Images/loggin-pic.png");
-    width: 2rem;
-    height: 2rem;
-    background-size: cover;
-    border-radius: 50%;
-    background-position-y: -15px;
-
-}
 
 }
 

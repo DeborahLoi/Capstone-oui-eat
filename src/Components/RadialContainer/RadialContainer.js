@@ -147,7 +147,7 @@ const RadialContainer = ({ percentage }) => {
       </label>
     </div> */}
     <RadialGauge  pointer={{
-      value: percentage,
+      value: percentage/10,
       color: "blue",
       cap: {
         size: 0.05,
@@ -173,16 +173,16 @@ const RadialContainer = ({ percentage }) => {
       reverse,
       ranges: [{
         from: 0,
-        to: 33,
+        to: 33.3,
         color: "red",
       },
       {
-        from: 34,
-        to: 66,
+        from:33.4,
+        to: 66.7,
         color: "orange"
       },
       {
-        from: 67,
+        from: 66.8,
         to: 100,
         color: "#28FF0D"
       }

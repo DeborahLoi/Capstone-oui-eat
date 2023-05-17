@@ -3,12 +3,12 @@ import "./InputIngredients.scss"
 
 function InputIngredients({onSubmitHandler}) {
   return (
-    <form onSubmit={onSubmitHandler} className="input__container">
-      <span className="input"> 
-        <input className="input__text" name="ingredients" type="text" placeholder="Ingredients" wrap="hard"></input>
+    <form className="input-ingredients" onSubmit={onSubmitHandler} >
+      <span > 
+        <textarea className="placeholder" name="ingredients" type="textarea" placeholder="Your ingredients..." wrap="hard"></textarea>
       
       </span>
-      <button type="submit" className="button"> search </button>
+      <button className="button-search" type="submit"> search </button>
     </form>
   );
 }

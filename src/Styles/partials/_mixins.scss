@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
 
-@mixin  button-field{
+@mixin button-field {
     margin-bottom: 10%;
     border: 3px solid;
     border-radius: 28px;
@@ -11,8 +11,22 @@
     color: rgba(73, 73, 73, 0.556);
     font-family: "Orbitron";
 
-    &:hover{
+    &:hover {
         background-color: $secondary-color-green-pastel;
     }
+
+}
+
+@mixin score {
+    background-color: $primary-color-green;
+    display: flex;
+    height: 47px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 20px;
+    color: $primary-color-ligh-grey;
+    margin-bottom: 5%;
 
 }

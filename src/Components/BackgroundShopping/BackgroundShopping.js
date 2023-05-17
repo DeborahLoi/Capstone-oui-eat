@@ -1,18 +1,16 @@
 import './BackgroundShopping.scss';
-import ShoppingBackground   from '../../Assets01/Images/shopping-background3.png';
+import ShoppingBackground from '../../Assets01/Images/shopping-background3.png';
 
- function BackgroundShopping() {
+function BackgroundShopping() {
   return (
-    
- <>
- <div className="logged__avatar">
 
- <img className="logged__image" src={ShoppingBackground} alt="shopping-list rectangle background" />
-    </div>
-     <div className= "logged--display" >
-       
-       </div>
-       </>
+    <>
+      <div className="logged__avatar">
+        <img className="logged__image" src={ShoppingBackground} alt="shopping-list rectangle background" />
+      </div>
+      <div className="logged--display" >
+      </div>
+    </>
   )
 }
 

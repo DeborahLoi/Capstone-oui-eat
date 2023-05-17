@@ -1,0 +1,83 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    background-color: $primary-color-ligh-grey;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px #AFAFAF;
+
+    &__header {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+
+    &__title {
+        margin-bottom: 1rem;
+        color: black;
+    }
+
+    &__image {
+        height: 105px;
+
+    }
+
+}
+
+.recipe__info--display {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe--display {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+
+
+}
+
+.recipe__container {
+    margin: 0px 329px;
+    padding: 36px;
+    background-color: white;
+}
+
+
+.recipe__ingredients li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: $primary-color-green;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.video-details {
+
+    &--padding {
+        padding-bottom: 0.75rem;
+        margin-right: 1.5rem;
+    }
+
+
+    &--color {
+        color: $primarycolor-silver
+    }
+}
+
+.views-likes--display {
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+}

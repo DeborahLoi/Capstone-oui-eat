@@ -8,16 +8,16 @@ import ButtonMailto from '../ButtonMailto/ButtonMailto';
 
 export default function Footer() {
   return (
-    
+
 
     <footer className="footer">
       <div className="footer__items" >
         <div className="footer__social">
           <h4>Social Media</h4>
-          <div className= "footer__icons__container">
-          <a href="https://www.instagram.com/deboeasy" target="blank"><img className="footer__icons" src={InstagramIcon} alt="instagram icon" /></a>
-          <a href="https://www.facebook.com/buddydoux" target="blank"><img className="footer__icons" src={FacebookIcon} alt="facebook icon" /></a>
-        </div></div>
+          <div className="footer__icons__container">
+            <a href="https://www.instagram.com/deboeasy" target="blank"><img className="footer__icons" src={InstagramIcon} alt="instagram icon" /></a>
+            <a href="https://www.facebook.com/buddydoux" target="blank"><img className="footer__icons" src={FacebookIcon} alt="facebook icon" /></a>
+          </div></div>
         <div className="footer__contact">
           <h4>Contact Us</h4>
           <div className="footer__icons--display">
@@ -29,18 +29,15 @@ export default function Footer() {
             <p class="footer-phone">(786) 881-3870</p>
           </div>
           <div className="footer__icons--display">
-           
-               <img className="footer__icons" src={EmailIcon} alt="icon for the email address" />
-           
-           
-            <ButtonMailto label="Contact us here" mailto="mailto:deboeasy92@gmail.com" />
-          
+            <img className="footer__icons" src={EmailIcon} alt="icon for the email address" />
+            <a href='mailto:deboeasy92@gmail.com'>Contact us</a>
+            {/* <ButtonMailto label="Contact us here" email="deboeasy92@gmail.com" /> */}
           </div>
         </div>
       </div>
       <p className="footer__copy-right">© 2023 OUI EAT. All Rights Reserved.</p>
     </footer>
-   
+
 
   )
 }

@@ -1,0 +1,35 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+
+
+.input-ingredients{
+    margin-top: 279px;
+    margin-left: 861px;
+    margin-bottom: 130px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .placeholder{
+        border: 3px solid $primary-color-green;
+        border-radius: 4px;
+        padding: 10px;
+    }
+}
+
+.button-search{
+    border: 3px solid;
+    border-radius: 28px;
+    font-size: 15px;
+    background-color: #FFE5E5;
+    color: rgba(73, 73, 73, 0.556);
+    font-family: "Orbitron";
+    height: 40px;
+    padding: 7px;
+
+    &:hover{
+        background-color: $secondary-color-green-pastel;
+    }
+
+}
