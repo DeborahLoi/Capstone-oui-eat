@@ -11,7 +11,6 @@ function Recipe({ title, image, calories, ingredients, dietLabels }) {
           <div className="recipe--display">
             <img className="recipe__image" src={image} alt={title} />
             <ul className="recipe__info--display recipe__ingredients">
-
               <li>4 servings</li>
               <li >Calories: {Math.round(calories)} kcal</li>
               <li>Diet Label: {dietLabels} </li>

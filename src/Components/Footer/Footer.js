@@ -4,7 +4,7 @@ import FacebookIcon from '../../Assets01/Icons/facebook.png';
 import EmailIcon from '../../Assets01/Icons/email.png';
 import AddressIcon from '../../Assets01/Icons/address.png';
 import PhoneIcon from '../../Assets01/Icons/phone.png';
-import ButtonMailto from '../ButtonMailto/ButtonMailto';
+
 
 export default function Footer() {
   return (
@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
           <div className="footer__icons--display">
             <img className="footer__icons" src={PhoneIcon} alt="phone icon with hearts" />
-            <p class="footer-phone">(786) 881-3870</p>
+            <p className="footer-phone">(786) 881-3870</p>
           </div>
           <div className="footer__icons--display">
             <img className="footer__icons" src={EmailIcon} alt="icon for the email address" />

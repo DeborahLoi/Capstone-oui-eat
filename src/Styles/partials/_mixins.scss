@@ -3,12 +3,12 @@
 
 @mixin button-field {
     margin-bottom: 10%;
-    border: 3px solid;
-    border-radius: 28px;
-    font-size: 20px;
-    padding: 1rem;
-    background-color: #FFE5E5;
-    color: rgba(73, 73, 73, 0.556);
+    border: .1875rem solid;
+    border-radius: 1.75rem;
+    font-size: 1.25rem;
+    padding: 16px;
+    background-color:$primary-color-pink-pastel;
+    color: $secondary-light-grey;
     font-family: "Orbitron";
 
     &:hover {
@@ -20,12 +20,12 @@
 @mixin score {
     background-color: $primary-color-green;
     display: flex;
-    height: 47px;
+    height: 2.9375rem;
     width: 60%;
     align-items: center;
     justify-content: center;
-    border-radius: 2px;
-    font-size: 20px;
+    border-radius: .125rem;
+    font-size: 1.25rem;
     color: $primary-color-ligh-grey;
     margin-bottom: 5%;
 
