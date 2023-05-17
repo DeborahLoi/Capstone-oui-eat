@@ -16,7 +16,7 @@ function Recipe({ title, image, calories, ingredients, dietLabels }) {
               <li>Diet Label: {dietLabels} </li>
             </ul> </div></div>
         <ul className="recipe__ingredients">
-          {ingredients && ingredients.map((ingredient) => <li className="recipe-items">{ingredient}</li>)}
+          {ingredients && ingredients.map((ingredient, index) => <li key={index} className="recipe-items">{ingredient}</li>)}
         </ul>
         <div className="views-likes--display">
           <div className="video-details--padding video-details--color "><img src={ViewsIcon} alt="Views Icon" /> 2350</div>

@@ -9,7 +9,6 @@ function ShoppingList() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIngredients, setSelectedIngredients] = useState([]);
   const [score, setScore] = useState(0);
-  const [percentage, setPercentage] = useState(0);
   const [averageScore, setAverageScore] = useState(0);
 
   useEffect(() => {
@@ -26,7 +25,7 @@ function ShoppingList() {
 
   useEffect(() => {
     const scorePercentage = Math.round(score / selectedIngredients.length);
-    setPercentage(scorePercentage);
+    setAverageScore(scorePercentage);
   }, [score, selectedIngredients]);
 
   function handleIngredientClick(event) {
@@ -57,7 +56,7 @@ function ShoppingList() {
         {isOpen && (
           <ul className="dropdown-menu">
             {Object.keys(ingredientsData).map(ingredient => (
-              <li className="list" key={ingredient}>
+              <li className="list" key={ingredient.id}>
                 <label>
                   <input
                     className="input"
@@ -66,7 +65,7 @@ function ShoppingList() {
                     checked={selectedIngredients.includes(ingredient)}
                     onChange={handleIngredientClick}
                   />
-                    
+                
                   {ingredient}
                 </label>
               </li>

@@ -1,5 +1,4 @@
 import "./RecipesPage.scss"
-
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import Header from "../../Components/Header/Header";
@@ -11,14 +10,12 @@ import { Link } from "react-router-dom";
 
 
 function Hero() {
-  const API_KEY = process.env.REACT_APP_API_KEY;
   const [ingredients, setIngredients] = useState([])
   const [recipeList, setRecipeList] = useState([]);
-
+  
   useEffect(() => {
+    const API_KEY = process.env.REACT_APP_API_KEY;
     axios.get(`https://api.edamam.com/api/recipes/v2?type=public&q=${ingredients}&app_id=b365bd97&app_key=${API_KEY}`)
-
-
       .then(response => {
         const recipeArray = []
         for (let j = 0; j < 5; j++) {

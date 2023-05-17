@@ -7,7 +7,7 @@ export default function LoggedIn() {
  <>
  <div className="logged__avatar">
 
- <img src={GreenBackground} />
+ <img src={GreenBackground} alt="greenbackground" />
     </div>
      <div className= "logged--display" >
        
