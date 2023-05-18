@@ -74,7 +74,7 @@ function ShoppingList() {
         )}
         <div className="score__container">
           <p className="score">Total score: {score}</p>
-          <p className="score__container--definition">*The total score is calculated by adding up the healthy score of each ingredient. The Health score itself is determined using the formula H = N/C, where N represents the nutrient content and C represents calories.</p>
+          <p className="score__container--definition">*The total score is calculated by adding up the Health score of each ingredient. The Health score itself is determined using the formula H = N/C, where N represents the nutrient content and C represents calories.</p>
         </div >
       </div>
       <div className="radial__container">
@@ -85,7 +85,7 @@ function ShoppingList() {
             </Link>
             <RadialContainer percentage={averageScore} />
             <span className="radial__container--score">{`${averageScore} `}</span>
-            <p className="score__container--average">*Average nutri scoring</p>
+            <p className="score__container--average">*Average Health scoring</p>
             {averageScore > 333 && (
               <>
 
