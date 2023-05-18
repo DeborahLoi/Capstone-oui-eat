@@ -3,7 +3,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 import ShoppingListPage from './Pages/ShoppingListPage/ShoppingListPage';
 import RecipesPage from './Pages/RecipesPage/RecipesPage';
 
-console.log(process.env.REACT_APP_WEATHER_API_KEY);
+
 
 function App() {
   return (

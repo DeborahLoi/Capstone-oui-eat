@@ -1,16 +1,19 @@
+@use '../../Styles/partials/variables' as *;
+
 .page--layout{
     display: flex;
 }
 
 
 .recipe__items__title{
-    width: 440px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid white;
+    width: 27.5rem;
+    margin-bottom: 1.875rem;
+    border-bottom: .0625rem solid $primarycolor-white;
     margin-left: 11%;
-    padding-bottom: 5px;
-    font-size: 70px;
-    padding-top: 86px;
+    padding-bottom: .3125rem;
+    font-size: 4.375rem;
+    padding-top: 5.375rem;
+    width: 37.5rem;
     
 
 }

@@ -18,11 +18,11 @@
 
     &__title {
         margin-bottom: 1rem;
-        color: black;
+        color: $primarycolor-black;
     }
 
     &__image {
-        height: 105px;
+        height: 17.31vh;
 
     }
 
@@ -42,9 +42,11 @@
 }
 
 .recipe__container {
-    margin: 0px 329px;
     padding: 36px;
-    background-color: white;
+    background-color:$primarycolor-white;
+    
+    margin: 1rem 329px;
+    
 }
 
 

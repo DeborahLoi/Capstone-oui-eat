@@ -1,6 +1,4 @@
 @use '../../Styles/partials/global' as *;
-
-
 @use '../../Styles/partials/global' as *;
 @use '../../Styles/partials/variables' as *;
 @use '../../Styles/partials/typography' as *;
@@ -10,12 +8,12 @@
 .shopping-list__items {
 
     &__title {
-        width: 440px;
-        margin-bottom: 30px;
-        border-bottom: 1px solid white;
+        width: 27.5rem;
+        margin-bottom: 1.875rem;
+        border-bottom: 1px solid $primarycolor-white;
         margin-left:27%;
-        padding-bottom: 5px;
-        font-size: 70px;
+        padding-bottom: .3125rem;
+        font-size: 4.375rem;
         margin-top: 3rem;
     }
 
@@ -54,10 +52,10 @@
 
 
         &__images {
-            height: 161px;
-            width: 196px;
+            height: 10.0625rem;
+            width: 12.25rem;
             transition: transform 0.5s;
-            margin-top: 29px;
+            margin-top: 1.8125rem;
 
             &:hover {
                 animation: shake 0.5s;

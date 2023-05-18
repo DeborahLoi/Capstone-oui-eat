@@ -4,34 +4,34 @@
 .quote{
     max-width: 80%;
     font-family: 'Life-saver';
-    line-height: 26px;
-    margin-bottom: 17px;
-    margin-left:43px;
+    line-height: 1.625rem;
+    margin-bottom: 1.0625rem;
+    margin-left:2.6875rem;
     
 
     &__container{
       
 background-image: url('../../Assets01//Images/quote-background.png');
-width: 351px;
-/* padding-top: 117px; */
+width: 21.9375rem;
+/* padding-top: 7.3125rem; */
 border-radius: 50%;
-border: 5px solid white;
+border: .3125rem solid $primarycolor-white;
 display: flex;
 flex-direction: column;
-height: 363px;
-margin-left: 54px;
+height: 22.6875rem;
+margin-left: 3.375rem;
 justify-content: center;
 align-items: center;
-background-position-x: -50px;
-background-position-y: -8px;
-padding-top: 80px;
+background-position-x: -3.125rem;
+background-position-y: -0.5rem;
+padding-top: 5rem;
     }
 
 
     &--display{
         display:flex;
         flex-direction: column;
-        margin-left: 46px;
+        margin-left: 2.875rem;
         width: 33%;
     }
 
@@ -41,12 +41,12 @@ padding-top: 80px;
     &__title{
         background-color: #F4FDE9;
         background-size: cover;
-        font-size: 25px;
-    border: 5px solid white;
-    border-radius: 20px;
-    padding: 19px;
+        font-size: 1.5625rem;
+    border: .3125rem solid white;
+    border-radius: 1.25rem;
+    padding: 1.1875rem;
     color: rgba(73, 73, 73, 0.556);
-    margin-left: 58px;
+    margin-left: 3.625rem;
 
     
       

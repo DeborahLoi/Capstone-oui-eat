@@ -9,10 +9,11 @@ import Footer from "../../Components/Footer/Footer";
 import { Link } from "react-router-dom";
 
 
-function Hero() {
+function RecipesPage() {
   const [ingredients, setIngredients] = useState([])
   const [recipeList, setRecipeList] = useState([]);
-  
+
+  //axio call with Edamame API useeffect with the ingredients as depedencies
   useEffect(() => {
     const API_KEY = process.env.REACT_APP_API_KEY;
     axios.get(`https://api.edamam.com/api/recipes/v2?type=public&q=${ingredients}&app_id=b365bd97&app_key=${API_KEY}`)
@@ -25,6 +26,7 @@ function Hero() {
           const image = recipes.recipe.image
           const calories = recipes.recipe.calories
           const dietLabels = recipes.recipe.dietLabels
+         
 
 
           const ingredientsText = []
@@ -39,6 +41,7 @@ function Hero() {
             "ingredients": ingredientsText,
             "calories": calories,
             "dietLabels": dietLabels,
+         
           }
           recipeArray.push(recipe);
         }
@@ -76,4 +79,4 @@ function Hero() {
 
 }
 
-export default Hero;
+export default RecipesPage;

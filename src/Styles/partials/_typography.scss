@@ -3,82 +3,83 @@
 
 
 @font-face {
-    font-family:'Orbitron' ;
+    font-family: 'Orbitron';
     src: url(../../Assets01/Font/static/Orbitron-Regular.ttf) format(truetype);
     font-weight: 400;
 
 }
 
 @font-face {
-    font-family:'Orbitron' ;
+    font-family: 'Orbitron';
     src: url(../../Assets01/Font/static/Orbitron-Bold.ttf) format(truetype);
     font-weight: 700;
 }
 
 
 @font-face {
-    font-family:'VT323' ;
+    font-family: 'VT323';
     src: url(../../Assets01/Font/VT323-Regular.ttf) format(truetype);
     font-weight: 400;
 }
 
 @font-face {
-    font-family:'Mplus' ;
+    font-family: 'Mplus';
     src: url(../../Assets01/Font/M_PLUS_1p/MPLUS1p-Thin.ttf) format(truetype);
     font-weight: 100;
 }
 
 @font-face {
-    font-family:'Mplus' ;
+    font-family: 'Mplus';
     src: url(../../Assets01/Font/M_PLUS_1p/MPLUS1p-Light.ttf) format(truetype);
     font-weight: 300;
 }
 
 @font-face {
-    font-family:'Mplus' ;
+    font-family: 'Mplus';
     src: url(../../Assets01/Font/M_PLUS_1p/MPLUS1p-Regular.ttf) format(truetype);
     font-weight: 400;
 
 }
 
 @font-face {
-    font-family:'Mplus' ;
+    font-family: 'Mplus';
     src: url(../../Assets01/Font/M_PLUS_1p/MPLUS1p-Medium.ttf) format(truetype);
     font-weight: 500;
 }
 
 @font-face {
-    font-family:'Life-saver' ;
+    font-family: 'Life-saver';
     src: url(../../Assets01/Font/Life_Savers/LifeSavers-Regular.ttf) format(truetype);
     font-weight: 400;
 }
 
-h1{
+h1 {
     font-family: 'Orbitron';
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     background: linear-gradient(to right, #D7BDE2, #FFFFFF);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, 0);
 }
 
 
 
-h2{
+h2 {
     font-family: 'Orbitron';
     color: $primarycolor-white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-h3{
+h3 {
     font-family: 'VT323';
     color: $primarycolor-white;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
-h4{
+
+h4 {
     font-family: "Orbitron";
     color: #FFFFFF;
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 1rem;
+    margin-bottom: .9375rem;
 }

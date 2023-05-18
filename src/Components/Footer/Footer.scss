@@ -6,16 +6,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 12px;
-  color: #FFFFFF;
-  background-color: #9ABFA4;
-  border: 3px solid #F8F8F8;
+  font-size: .75rem;
+  color: $primarycolor-white;
+  background-color: $primary-color-green;
+  border: .1875rem solid $primary-color-ligh-grey;
   border-radius: 50%;
   justify-content: space-between;
   width: 75%;
   margin-left: 10%;
-  margin-top: 82px;
-  height: 149px;
+  margin-top: 5.125rem;
+  height: 9.3125rem;
 
 
 
@@ -23,23 +23,23 @@
     display: flex;
     width: 80%;
     justify-content: center;
-    margin-top: 13px;
-    gap: 50px;
+    margin-top: .8125rem;
+    gap: 3.125rem;
 
   }
 
   &__icons {
     display: flex;
-    gap: 10px;
+    gap: .625rem;
     flex-direction: column;
     align-items: center;
-    padding-right: 32px;
-    width: 54px;
+    padding-right: 2rem;
+    width: 3.375rem;
 
 
     &__container {
       display: flex;
-      gap: 23px;
+      gap: 1.4375rem;
       align-items: center;
     }
 
@@ -49,23 +49,27 @@
     &--display {
       display: flex;
       align-items: center;
-      margin-bottom: 5px;
+      margin-bottom: .3125rem;
     }
   }
 
   &__social {
-    width: 146px;
-    height: 96px;
+    width: 9.125rem;
+    height: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 136px;
+    margin-left: 8.5rem;
   }
 
 
   &__copy-right {
     margin: 1rem;
-    font-size: 0.8rem;
+    font-size: .8rem;
+  }
+
+  &__email{
+    color: $primarycolor-white;
   }
 
 

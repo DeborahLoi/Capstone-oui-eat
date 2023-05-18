@@ -65,7 +65,7 @@ function ShoppingList() {
                     checked={selectedIngredients.includes(ingredient)}
                     onChange={handleIngredientClick}
                   />
-                
+
                   {ingredient}
                 </label>
               </li>
@@ -85,21 +85,18 @@ function ShoppingList() {
             </Link>
             <RadialContainer percentage={averageScore} />
             <span className="radial__container--score">{`${averageScore} `}</span>
-            <p>Average nutri scoring</p>
-
-            
+            <p className="score__container--average">*Average nutri scoring</p>
             {averageScore > 333 && (
-  <>
-    
-    <video className="healthy-result" src={HealthyResult} autoPlay loop muted alt="healthy message" />
-    <button className="save__button" type="button">SAVE MY SHOPPING LIST</button>
-  </>)}
+              <>
+
+                <video className="healthy-result" src={HealthyResult} autoPlay loop muted alt="healthy message" />
+                <button className="save__button" type="button">SAVE MY SHOPPING LIST</button>
+              </>)}
           </>
         )}
         {averageScore <= 0 && (
           <p> </p>
         )}
-
       </div>
     </div>
   );

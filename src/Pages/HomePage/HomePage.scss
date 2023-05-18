@@ -9,12 +9,12 @@
 .home-page__items {
 
     &__title {
-        width: 412px;
-        margin-bottom: 30px;
-        border-bottom: 1px solid white;
-        margin-left: 60px;
-        padding-bottom: 5px;
-        font-size: 70px;
+        width: 25.75rem;
+        margin-bottom: 1.875rem;
+        border-bottom: 1px solid $primarycolor-white;
+        margin-left: 3.75rem;
+        padding-bottom: .3125rem;
+        font-size: 4.375rem;
         margin-top: 3rem;
     }
 
@@ -22,9 +22,8 @@
 
     &--display {
         display: flex;
-    
-    align-items: center;
-    margin-left: 82px;
+        align-items: center;
+        margin-left: 82px;
 
     }
 

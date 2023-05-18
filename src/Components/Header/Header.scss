@@ -5,10 +5,10 @@
     align-items: center;
     flex-direction: row-reverse;
     gap: 15px;
-    border: 5px solid #F8F8F8;
-    background-color: #AFAFAF;
-    height: 52px;
-    padding-right: 50px;
+    border: 5px solid $primary-color-ligh-grey;
+    background-color: $primarycolor-silver;
+    height: 7.83vh;
+    padding-right: 3.125rem;
 
 
     &__logo{

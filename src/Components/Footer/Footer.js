@@ -9,7 +9,6 @@ import PhoneIcon from '../../Assets01/Icons/phone.png';
 export default function Footer() {
   return (
 
-
     <footer className="footer">
       <div className="footer__items" >
         <div className="footer__social">
@@ -30,8 +29,7 @@ export default function Footer() {
           </div>
           <div className="footer__icons--display">
             <img className="footer__icons" src={EmailIcon} alt="icon for the email address" />
-            <a href='mailto:deboeasy92@gmail.com'>Contact us</a>
-            {/* <ButtonMailto label="Contact us here" email="deboeasy92@gmail.com" /> */}
+            <a className="footer__email" href='mailto:deboeasy92@gmail.com'>Contact us</a>
           </div>
         </div>
       </div>
