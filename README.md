@@ -22,7 +22,7 @@ the website is built on a viewport of 1278 px. Its not responsive
 
 ## No server needed
 Didn't need a server. All my data base are in json files. 
-I will creaste it later to be able to create API for the comment section
+I will create it later to be able to create API for the comment section
 
 ## Color Reference
 
@@ -82,7 +82,7 @@ For the flow and the tools used you can refer the roadmap template downloaded wi
 
 
 The API I used is called Edam that render 20 000 of recipes with all the nutrients. 
-I just code a loop to be abble to display only 5 recipes in the 
+I just code a loop to be able to display only 5 recipes on the page.
 
 
 API get : with use effect with ingredients as a dependency

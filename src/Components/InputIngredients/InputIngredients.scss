@@ -4,29 +4,29 @@
 
 
 .input-ingredients{
-    margin-top: 185px;
-    margin-left: 814px;
-    margin-bottom: 130px;
+    margin-top: 11.5625rem;
+    margin-left: 50.875rem;
+    margin-bottom: 8.125rem;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: .9375rem;
 
     .placeholder{
-        border: 3px solid $primary-color-green;
-        border-radius: 4px;
-        padding: 10px;
+        border: .1875rem solid $primary-color-green;
+        border-radius: .25rem;
+        padding: .625rem;
     }
 }
 
 .button-search{
-    border: 3px solid;
-    border-radius: 28px;
-    font-size: 15px;
+    border: .1875rem solid;
+    border-radius: 1.75rem;
+    font-size: .9375rem;
     background-color:$secondary-color-pink-pastel;
     color: rgba(73, 73, 73, 0.556);
     font-family: "Orbitron";
-    height: 40px;
-    padding: 7px;
+    height: 2.5rem;
+    padding: .4375rem;
 
     &:hover{
         background-color: $secondary-color-green-pastel;
